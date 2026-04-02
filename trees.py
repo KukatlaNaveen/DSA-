@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Q1 — Maximum Depth of Binary Tree
 # Find the maximum depth (height) of a binary tree.
 
@@ -9,6 +10,8 @@
 #     4   5
 
 # Output: Maximum depth is 3
+=======
+>>>>>>> 3bb003211f553d927acdaff63d2d5b5880339346
 from collections import deque
 class Tree:
  def __init__(self,value):
