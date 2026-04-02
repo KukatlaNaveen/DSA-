@@ -1,3 +1,7 @@
+#. Cricket Scoreboard After a T20 tournament, the scoreboard is out of order.
+# The team coach wants players ranked by their total runs scored so he can decide the batting order for the next match.
+#Use QuickSort to rank players from highest to lowest runs.
+# Input: players = [  ("Rohit", 85), ("Virat", 120), ("Dhoni", 60),  ("Hardik", 95), ("Rahul", 110) ]
 def quick_sort(arr):
     n=len(arr)
     if n<=1:
@@ -13,7 +17,7 @@ def quick_sort(arr):
     return quick_sort(left)+[pivot]+quick_sort(right)
 
 arr=[("Rohit",85), ("Virat",120), ("Dhoni",60),("Hardik",95), ("Rahul",110) ]
-print(quick_sort(arr))
+print("players=",quick_sort(arr))
 
 def flight(seats,prefered_seat):
    n=len(seats)
